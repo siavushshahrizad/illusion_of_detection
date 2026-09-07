@@ -2,7 +2,7 @@
 
 Code accompanying "The Illusion of Detection: Why Machine Learning Can Overestimate Mental Disorder Recognition from Audio". Across a re-evaluation of 25 published studies and our own robust analysis of a large, naturalistic dataset, we found no reliable evidence that mental disorders can be detected from acoustic markers in audio, once common methodological flaws were corrected for.
 
-📄 Manuscript: [TODO Add link]
+📄 [Manuscript](https://doi.org/10.31224/8100)
 
 ## Repo Structure
 
@@ -44,7 +44,18 @@ Our robust analysis uses the [Bridge2AI-Voice dataset](https://physionet.org/con
 ## Citation
 
 ```
-[TODO: Add BibTeX once preprinted]
+@misc{shaIllusionDetectionWhy2026,
+  title = {The {{Illusion}} of {{Detection}}: {{Why Machine Learning Can Overestimate Mental Disorder Recognition}} from {{Audio}}},
+  shorttitle = {The {{Illusion}} of {{Detection}}},
+  author = {Sha, Sia and Qualter, Pamela and Huang, Yongchao and Shahrizad, Nina and Krpan, Dario and Galizzi, Matteo},
+  year = 2026,
+  month = sep,
+  doi = {10.31224/8100},
+  urldate = {2026-09-07},
+  abstract = {Machine learning (ML) research has attempted to detect mental disorders from people's audio recordings. Despite seemingly impressive reported results, it remains unclear whether those results reflect genuine clinical signal or artefacts related to how ML models are trained and evaluated. We re-examine 25 studies included in a recent systematic review and identify three major recurring methodological problems that are likely to inflate the ability of ML models to detect mental disorders: (1) data leakage, (2) lack of multiple seeds, and (3) lack of large, naturalistic datasets. We show via an experiment how ML practices can produce apparently strong results even in the absence of real, predictive signals. We also conduct robust analyses using a large, novel dataset, where we find no reliable evidence that mental disorders can be detected from audio across multiple modelling approaches. Our findings suggest that current evidence may substantially overestimate the real-world capability of audio-based detection of mental health disorders, highlighting the need for evaluation standards aligned with best practices for clinical and policy use.},
+  copyright = {https://creativecommons.org/licenses/by/4.0},
+}
+
 ```
 
 ## License
